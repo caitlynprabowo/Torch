@@ -33,6 +33,12 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+       
+    
+        func reverse(text: String) -> String {
+            return String(text.reversed())
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
